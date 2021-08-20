@@ -1,0 +1,61 @@
+{
+  "vpc-provider:account=740796670154:filter.isDefault=true:region=ap-southeast-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-03933e39b362924ca",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0eea2ffeb14514661",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "ap-southeast-1a",
+            "routeTableId": "rtb-0175201492a30708b"
+          },
+          {
+            "subnetId": "subnet-04f294aff56bdebec",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "ap-southeast-1b",
+            "routeTableId": "rtb-0175201492a30708b"
+          },
+          {
+            "subnetId": "subnet-06151d9c6aa81ca08",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "ap-southeast-1c",
+            "routeTableId": "rtb-0175201492a30708b"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0dff3a282850eb073",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "ap-southeast-1a",
+            "routeTableId": "rtb-01c2ef1674ceb7584"
+          },
+          {
+            "subnetId": "subnet-080809ebab0e6e928",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "ap-southeast-1b",
+            "routeTableId": "rtb-01c2ef1674ceb7584"
+          },
+          {
+            "subnetId": "subnet-033b53cd118f693fa",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "ap-southeast-1c",
+            "routeTableId": "rtb-01c2ef1674ceb7584"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=740796670154:domainName=oneshop.cloud:region=ap-southeast-1": {
+    "Id": "/hostedzone/Z1ATTUOTNGWJY9",
+    "Name": "oneshop.cloud."
+  }
+}
