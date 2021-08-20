@@ -19,3 +19,6 @@ Before run the cdk deployment, we need to prepare some resources from the AWS co
 --- 
 ### fargate-with-loadbalancer
 This example use `ApplicationLoadBalancedFargateService` from the cdk package `@aws-cdk/aws-ecs-patterns`. It helps you to create fargate service with a configured load balancer very easily. This example requires you to create a ECS cluster first.
+
+### load-balanced-ec2-with-auto-scaling-group
+In this example, the stack will create an ecs cluster containing a service running on load balanced ec2 instances, those instances are managing by an auto scaling group. Instance will be added or stopped when the metrics of the instances meet specific ultilization of cpu or memory.
